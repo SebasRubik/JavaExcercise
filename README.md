@@ -1,18 +1,31 @@
-## Getting Started
+# Java Task Manager Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción
 
-## Folder Structure
+Este proyecto es una aplicación de consola desarrollada en Java para la gestión de tareas. Permite a los usuarios agregar, marcar como completadas, ordenar por prioridad y guardar tareas en archivos.
+## Características
 
-The workspace contains two folders by default, where:
+- **Gestión de tareas**: Los usuarios pueden agregar nuevas tareas con un título, descripción y nivel de prioridad.
+- **Ordenar tareas por prioridad**: Las tareas se pueden ordenar en niveles de prioridad: `LOW`, `MID` y `HIGH`.
+- **Marcar tareas como completadas**: Los usuarios pueden marcar las tareas como completadas, eliminándolas de la lista.
+- **Guardar y cargar tareas desde un archivo**: La aplicación permite guardar el estado actual de las tareas en un archivo y cargar tareas guardadas anteriormente.
+- **Fusión de ramas**: El proyecto utiliza las ramas `main` y `master`, permitiendo fusionar cambios entre ellas según el flujo de trabajo del proyecto.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Estructura del Proyecto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Main.java**: Archivo principal que contiene el flujo de la aplicación y el menú interactivo para el usuario.
+- **TasksManager.java**: Clase que gestiona las tareas, ofreciendo métodos para agregar, eliminar, ordenar y mostrar tareas.
+- **Task.java**: Clase que representa una tarea individual con un título, descripción y nivel de prioridad.
+- **Priority.java**: Enum que define los niveles de prioridad (`LOW`, `MID`, `HIGH`).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Uso del Programa
 
-## Dependency Management
+Al iniciar la aplicación, se presenta un menú con las siguientes opciones:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Load Tasks**: Cargar las tareas guardadas desde un archivo.
+2. **Write Tasks**: Guardar las tareas actuales en un archivo.
+3. **Show Tasks (in priority order)**: Mostrar las tareas en orden de prioridad.
+4. **Add new task**: Agregar una nueva tarea con un título, descripción y prioridad.
+5. **Mark task as completed**: Marcar una tarea como completada eliminándola de la lista.
+6. **Salir**: Terminar la ejecución de la aplicación.
+
