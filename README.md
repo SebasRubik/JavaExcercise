@@ -9,7 +9,6 @@ Este proyecto es una aplicación de consola desarrollada en Java para la gestió
 - **Ordenar tareas por prioridad**: Las tareas se pueden ordenar en niveles de prioridad: `LOW`, `MID` y `HIGH`.
 - **Marcar tareas como completadas**: Los usuarios pueden marcar las tareas como completadas, eliminándolas de la lista.
 - **Guardar y cargar tareas desde un archivo**: La aplicación permite guardar el estado actual de las tareas en un archivo y cargar tareas guardadas anteriormente.
-- **Fusión de ramas**: El proyecto utiliza las ramas `main` y `master`, permitiendo fusionar cambios entre ellas según el flujo de trabajo del proyecto.
 
 ## Estructura del Proyecto
 
