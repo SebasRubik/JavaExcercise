@@ -1,0 +1,24 @@
+Title: Meditar
+Desc: Debo meditar
+Pirority: HIGH
+
+Title: Estudiar
+Desc: Debo Estudiar mulicariado
+Pirority: HIGH
+
+Title: Programar
+Desc: Debo Programar
+Pirority: MID
+
+Title: leer
+Desc: Debo leer
+Pirority: MID
+
+Title: Hablar
+Desc: Debo Hablar
+Pirority: MID
+
+Title: Dormir
+Desc: Debo dormir
+Pirority: LOW
+
